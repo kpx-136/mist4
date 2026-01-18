@@ -1,13 +1,202 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Tuffy", cursive;
+  color: #2F2A23;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-size: 25px;
+  background-color: #ecebb585;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  max-width: 100vw;
+  padding: 20px 35px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-height: 150px;
+  height: 30%;
+}
+
+nav img {
+  max-height: 8vw;
+  object-fit: contain;
+}
+
+.navbar h1 {
+  font-family: "Just Another Hand", cursive;
+  font-size: 10vw;
+  color: #4E422C;
+  text-shadow:
+    -1px -1px 0.25vw #2F2A23,
+     1px -1px 0.25vw #2F2A23,
+    -1px  1px 0.25vw #2F2A23,
+     1px  1px 0.25vw #2F2A23;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  color: #2F2A23;
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 3vw;
+}
+
+.navbar a:hover {
+  color:#4E422C98;
+  text-shadow:
+    -1px -1px 1px #2F2A23,
+     1px -1px 1px #2F2A23,
+    -1px  1px 1px #2F2A23,
+     1px  1px 1px #2F2A23;
+}
+
+.content {
+  max-width: 100%; 
+  margin: 0 auto;
+}
+
+.note-list {
+  font-size: 30px;;
+  margin: 30px;
+  text-align: center; 
+}
+
+.note-preview {
+  box-shadow: 1px 1px 5px #2F2A2325;
+  border-radius: 7px;
+  text-align: center;
+  padding: 30px 40px;
+  font-size: 5vw;
+}
+
+.note-preview p {
+  font-size: 15px;
+}
+
+.note-preview:hover {
+  box-shadow: 1px 3px 10px #2F2A2390;
+}
+
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin: 0 auto;
+  width: auto;
+  padding: 30px;
+}
+
+.note-grid a {
+  text-decoration: none;
+}
+
+.note-preview h2 {
+  color: #4E422C;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.create {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+  font-size: 25px;
+}
+
+.create h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.create input, .create textarea {
+  width: 100%; 
+  padding: 6px 10px;
+  margin: 10px, 0;
+  border: 1px solid #ddd; 
+  box-sizing: border-box; 
+  display: block;
+  font-size: 15px;
+}
+
+.create textarea {
+  height: 200px;
+}
+
+.create button {
+  background: #4E422C; 
+  color: #c1beb8;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.create button:hover {
+  background-color: #2F2A23;
+}
+
+.note {
+  text-align: center;
+  box-shadow: 1px 1px 5px #2F2A2325;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 30px;
+}
+
+.note:hover {
+  box-shadow: 1px 1px 10px #2F2A2325;
+}
+
+.note h2 {
+  font-size: 30px;
+  color: #4E422C;
+  margin-bottom: 10px;
+}
+
+.note div {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.note button {
+  background: #4E422C;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.not-found {
+  text-align: center;
+  color: #4E422C;
+  margin: 30px;
 }
