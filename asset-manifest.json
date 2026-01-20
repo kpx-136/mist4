@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mist4/static/css/main.e20c39c0.css",
-    "main.js": "/mist4/static/js/main.47b274d3.js",
+    "main.js": "/mist4/static/js/main.b9fd533b.js",
     "static/media/logo.svg": "/mist4/static/media/logo.9fa2153c711dc08c01daa73f3ed4494e.svg",
     "index.html": "/mist4/index.html",
     "main.e20c39c0.css.map": "/mist4/static/css/main.e20c39c0.css.map",
-    "main.47b274d3.js.map": "/mist4/static/js/main.47b274d3.js.map"
+    "main.b9fd533b.js.map": "/mist4/static/js/main.b9fd533b.js.map"
   },
   "entrypoints": [
     "static/css/main.e20c39c0.css",
-    "static/js/main.47b274d3.js"
+    "static/js/main.b9fd533b.js"
   ]
 }
